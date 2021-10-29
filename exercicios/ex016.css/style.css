@@ -1,0 +1,41 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'flame' ;
+    src: url('fontes/Flame.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    /*height: 100%;*/
+}
+body {
+    background-image: linear-gradient(to bottom, #F2BC8D, #D96C0D, #b6932a );
+    background-attachment: fixed;
+}
+main {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #331707a2;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+}
+h1 {
+    font-family: 'flame', Arial, Helvetica, sans-serif, cursive;
+    font-size: 3em;
+    font-weight: normal;
+    color: #dd4b119f ;
+    text-align: center;
+    text-shadow: 1px 1px 1px #a15428a9 ;
+}
+
+h2 {
+    color: #a03e05 ;
+}
+
+p {
+    text-align: justify;
+}
